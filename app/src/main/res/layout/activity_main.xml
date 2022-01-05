@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fece2f"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_main"
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:src="@drawable/img_login" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers_regular"
+        android:text="Thanh'sThien"
+        android:textAlignment="center"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:text="Chào mừng bạn"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
